@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html {
+    font-family: 'Caveat', cursive;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: rgb(226, 191, 147);
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.brand {
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+form input {
+    width: 93%;
+    background-color: transparent;
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    display: inline-block;
+    font-family: 'Caveat', cursive;
+}
+
+
+/* form ion-icon {
+    width: 9%;
+    font-size: 3rem;
+    margin: -9px;
+    color: black;
+} */
+
+.search-result {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-gap: 25px;
+    grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.item {
+    width: 100%;
+    border-radius: 8px;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.item img {
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+}
+
+.item .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* .search-icon {
+    width: 14px;
+    height: 14px;
+} */
+
+.item .title {
+    color: rgb(37, 35, 35);
+    margin: 20px 10px 0 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.view-button {
+    text-decoration: none;
+    text-align: center;
+    width: 130px;
+    padding: 10px 0;
+    background-color: rgb(223, 211, 211);
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+
+.item-data {
+    color: black;
+    display: block;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    letter-spacing: 0.15rem;
+    line-height: 2rem;
+}
+
+.container .initial .brand {
+    font-size: 7rem;
+}
+
+.container.initial form {
+    max-width: 800px;
+}
+
+.container.initial form input {
+    padding: 3px;
+    font-size: 2rem;
+}
+
+.search i {
+    font-size: 30px;
+}
